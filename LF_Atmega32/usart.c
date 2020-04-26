@@ -21,7 +21,7 @@ void USART_init()
 	UBRRH = (BAUD_PRESCALE>>8);
 }
 
-void usar_put_char(unsigned char c)
+void usart_put_char(unsigned char c)
 {
 	while(!(UCSRA &= (1<<UDRE))){}; //wait for empty buffer
 	UDR=c;
@@ -31,7 +31,7 @@ void usart_put_string(char *pointer)
 {
 	while (*pointer != 0x00)
 	{
-		usar_put_char(*pointer);
+		usart_put_char(*pointer);
 		pointer++;
 	}
 }
@@ -40,6 +40,7 @@ void usart_send_value(int value)
 {
 	char buffor[10];
 	itoa(value,buffor,10);
-	usar_put_char(buffor);
+	usart_put_string(buffor);
 	strcpy(buffor,' ');
+	usart_put_char('\n');
 }

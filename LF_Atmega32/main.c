@@ -65,16 +65,36 @@ ISR(USART_RXC_vect)
 		break;
 		
 		case '4':
+		kp-=1;
+		usart_put_string("\nKp: ");
+		usart_send_value(kp);
+		break;
+		
+		case '5':
 		kd+=1;
 		usart_put_string("\nKd: ");
 		usart_send_value(kd);
 		break;
 		
-		case '5':
+		case '6':
+		kd-=1;
+		usart_put_string("\nKd: ");
+		usart_send_value(kd);
+		break;
+		
+		case '7':
 		V+=5;
 		usart_put_string("\nV: ");
 		usart_send_value(V);
 		break;
+		
+		case '8':
+		V-=5;
+		usart_put_string("\nV: ");
+		usart_send_value(V);
+		break;
+		
+		
 	}
 	
 }
