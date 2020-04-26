@@ -1,8 +1,8 @@
 /*
  * init.h
  *
- * Created: 29.03.2020 12:28:04
- *  Author: lunqe
+ *
+ * Author : Konrad
  */ 
 
 

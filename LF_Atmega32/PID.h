@@ -1,8 +1,8 @@
 /*
  * PID.h
  *
- * Created: 02.04.2020 18:05:46
- *  Author: lunqe
+ *
+ * Author : Konrad
  */ 
 
 

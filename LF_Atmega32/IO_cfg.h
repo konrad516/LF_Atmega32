@@ -1,8 +1,8 @@
 /*
  * IO_cfg.h
  *
- * Created: 29.03.2020 12:01:04
- *  Author: lunqe
+ *
+ * Author : Konrad
  */ 
 
 

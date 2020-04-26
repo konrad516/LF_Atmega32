@@ -1,8 +1,8 @@
 /*
  * Set_ADC.h
  *
- * Created: 29.03.2020 17:59:54
- *  Author: lunqe
+ *
+ * Author : Konrad
  */ 
 
 

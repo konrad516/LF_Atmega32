@@ -1,8 +1,8 @@
 /*
  * usart.c
  *
- * Created: 07.04.2020 12:25:19
- *  Author: lunqe
+ *
+ * Author : Konrad
  */ 
 
 #include "usart.h"

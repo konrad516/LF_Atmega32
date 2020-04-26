@@ -1,8 +1,8 @@
 /*
  * LF_loop.h
  *
- * Created: 05.04.2020 13:21:05
- *  Author: lunqe
+ *
+ * Author : Konrad
  */ 
 
 

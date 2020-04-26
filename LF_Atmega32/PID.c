@@ -1,8 +1,8 @@
 /*
  * PID.c
  *
- * Created: 02.04.2020 18:05:33
- *  Author: lunqe
+ *
+ * Author : Konrad
  */ 
 
 #include "PID.h"

@@ -1,8 +1,8 @@
 /*
  * PWM.h
  *
- * Created: 29.03.2020 17:12:31
- *  Author: lunqe
+ *
+ * Author : Konrad
  */ 
 
 

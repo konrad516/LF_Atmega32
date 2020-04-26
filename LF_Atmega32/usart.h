@@ -1,8 +1,8 @@
 /*
  * usart.h
  *
- * Created: 07.04.2020 12:25:29
- *  Author: lunqe
+ *
+ * Author : Konrad
  */ 
 
 

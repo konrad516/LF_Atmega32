@@ -1,8 +1,7 @@
 /*
  * LF_Atmega32.c
  *
- * Created: 29.03.2020 10:47:34
- * Author : lunqe
+ * Author : Konrad
  */ 
 
 #define F_CPU 16000000
