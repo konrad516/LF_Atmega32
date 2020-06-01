@@ -8,9 +8,9 @@
 #include "PID.h"
 #include "Set_ADC.h"
 
-volatile int kp=5;
-volatile int kd=0;
-volatile int V=100;
+int kp=3;
+int kd=8;
+int V=80;
 
 int e_last=0, err=0;
 
@@ -19,7 +19,7 @@ int error()
 	int e=0;
 	int e_last=0;
 	int counter=0;
-	int sensors_value[8]={-12,-8,-4,-1,1,4,8,12};
+	int sensors_value[8]={-18,-8,-4,0,0,4,8,18};
 		
 	for (int i=0; i<8; i++)
 	{
@@ -34,8 +34,8 @@ int error()
 	}
 	else //no sensors on line found
 	{
-		if(e_last>9) e=20;
-		else if (e_last<-9) e=-20;
+		if(e_last>12) e=30;
+		else if (e_last<-12) e=-30;
 		else e_last=e;
 	}
 	return e;

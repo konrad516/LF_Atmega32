@@ -15,7 +15,7 @@
 #include "LF_loop.h"
 #include "usart.h"
 
-volatile int synch_timer = 0, start=0;
+volatile uint8_t synch_timer = 0, start=0;
 
 int main(void)
 {

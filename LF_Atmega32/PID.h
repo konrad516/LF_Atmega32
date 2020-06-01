@@ -9,9 +9,9 @@
 #ifndef PID_H_
 #define PID_H_
 
-extern volatile int kp;
-extern volatile int kd;
-extern volatile int V;
+extern int kp;
+extern int kd;
+extern int V;
 extern int e_last, err;
 
 int error();

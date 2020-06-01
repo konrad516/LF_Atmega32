@@ -11,7 +11,7 @@
 
 int sensors[8];
 int tab_sensors[8]={7,6,5,4,3,2,1,0};
-volatile int point=150;
+int point=150;
 
 void read_ADC()
 {

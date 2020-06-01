@@ -12,7 +12,7 @@
 #define F_CPU 16000000
 
 extern int sensors[8];
-extern volatile int point;
+extern int point;
 
 void read_ADC();
 void calibration();
