@@ -35,7 +35,7 @@ int main(void)
 
 ISR(TIMER0_COMP_vect)
 {
-	synch_timer=1;
+	synch_timer^=1;
 }
 
 ISR(USART_RXC_vect)
