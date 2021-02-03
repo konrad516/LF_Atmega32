@@ -11,5 +11,4 @@
 
 ## Pictures:
 <img src="images/lf_photo1.jpg" />
-<img src="images/lf_photo2.jpg" />
 <img src="board.png" />
